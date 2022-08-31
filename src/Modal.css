@@ -1,0 +1,20 @@
+.font{
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.info{
+    margin-left: 40px;
+}
+
+.header{
+    background-color: rgb(237, 214, 243);
+}
+
+.button{
+    background-color:  rgb(237, 214, 243);
+}
+
+.button:hover{
+    scale: 1.07 ease-in;
+}

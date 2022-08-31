@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #E8E8E8;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	min-height: 100vh;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	background-color: rgb(237, 214, 243);
+}
+
+.formulario {
+	min-width: 600px;
+	margin-top: 50px;
+	background: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.formulario > div {
+	margin-bottom: 20px;
+}
+
+.formulario label {
+	display: block;
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: #1f1f1f;
+}
+
+.formulario input,
+.formulario textarea {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	border-radius: 5px;
+	border: 2px solid #e2e2e2;
+	font-size: 18px;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #1f1f1f;
+}
+
+.formulario input:focus {
+	outline: none;
+	background-color: white
+}
+
+.formulario .error {
+	color: #e92b2d;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.buttonOk{
+	display: block;
+	background-color:  rgb(201, 113, 223);
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	transition: .3s ease all;
+}
+.buttonNo{
+	display: block;
+	background: #808386;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+
+.buttonOk:hover {
+	background: rgb(187, 10, 231);;
+}
+
+.formulario .error-icon{
+  position: absolute;
+  right: 410px;
+  margin-top: 16px;
+  font-size: 20px;
+  color: #e92b2d;
+}
+.formulario .check-icon{
+  position: absolute;
+  right: 410px;
+  margin-top: 16px;
+  font-size: 20px;
+  color: #31e92b;
+}
+
+.formulario .error-input{
+  border: 2px solid #e92b2d;
+}
+
+.formulario .check-input{
+  border: 2px solid #31e92b;
+}
+
+.formulario .exito {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+	color: #02a802;
+}
+
+.formulario input[type="radio"] {
+	width: auto;
+}
+
+::placeholder{
+  font-size: 15px;
+}
